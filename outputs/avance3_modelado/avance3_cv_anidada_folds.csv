@@ -1,0 +1,9 @@
+Modelo,Fold,RMSE,MAE,R2,Tiempo_s,Mejores_parametros
+KNN,1,43.77367078791149,38.29079664029353,0.883261911233585,10.929599999999937,"{'model__n_neighbors': 5, 'model__p': 1, 'model__weights': 'uniform', 'selector__quotas': (4, 6, 2)}"
+KNN,2,73.2888548631649,58.19702996676049,0.7836214262779594,8.95854670000017,"{'model__n_neighbors': 3, 'model__p': 1, 'model__weights': 'distance', 'selector__quotas': (3, 3, 2)}"
+KNN,3,83.16701278242178,68.0369199824179,0.6958793859347112,10.763533400000142,"{'model__n_neighbors': 3, 'model__p': 1, 'model__weights': 'uniform', 'selector__quotas': (4, 6, 2)}"
+KNN,4,54.808462643078,46.533602081183346,0.8683832803313285,9.605366400000094,"{'model__n_neighbors': 5, 'model__p': 1, 'model__weights': 'uniform', 'selector__quotas': (4, 6, 2)}"
+Ridge,1,83.74921757920384,67.59787924767323,0.5726849776691953,21.62084959999993,"{'model__alpha': 3, 'selector__quotas': (4, 6, 2)}"
+Ridge,2,56.82631518206168,40.60570625168438,0.8699119590474994,25.409509699999944,"{'model__alpha': 10, 'selector__quotas': (6, 10, 4)}"
+Ridge,3,67.82493428232803,57.47854598366981,0.7977342185552795,24.56452300000001,"{'model__alpha': 10, 'selector__quotas': (6, 10, 4)}"
+Ridge,4,66.42725068514481,44.44873765866035,0.8066659370631523,23.342226599999776,"{'model__alpha': 10, 'selector__quotas': (6, 10, 4)}"

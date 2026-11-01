@@ -1,0 +1,2 @@
+Modelo,RMSE_test,MAE_test,R2_test,Tiempo_entrenamiento_final_s,n_test,parcelas_test
+Random Forest,59.484783731378485,47.969395316256445,0.7928660379109044,2.375552500016056,8,4
